@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Domain</key>
+		<string>com.apple.installer.installmethod</string>
+		<key>Fields</key>
+		<dict>
+			<key>com.apple.message.installmethod</key>
+			<string>Mac App Store</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>Domain</key>
+		<string>com.apple.installer.targetvolume</string>
+		<key>Fields</key>
+		<dict>
+			<key>com.apple.message.disktype</key>
+			<string>Single HFS</string>
+			<key>com.apple.message.freespace</key>
+			<string>75000</string>
+			<key>com.apple.message.isvolumeboot</key>
+			<string>yes</string>
+			<key>com.apple.message.systemversion</key>
+			<string>10.9.5</string>
+			<key>com.apple.message.totalsize</key>
+			<string>110000</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>Domain</key>
+		<string>com.apple.installer.willconverttocs</string>
+		<key>Fields</key>
+		<dict>
+			<key>com.apple.message.result</key>
+			<string>Yes</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>Domain</key>
+		<string>com.apple.installer.slowmigrationfiles</string>
+		<key>Fields</key>
+		<dict>
+			<key>com.apple.message.roughfilecount</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>Domain</key>
+		<string>com.apple.installer.converttocs</string>
+		<key>Fields</key>
+		<dict>
+			<key>com.apple.message.result</key>
+			<string>success</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>Domain</key>
+		<string>com.apple.installer.progresserror</string>
+		<key>Fields</key>
+		<dict>
+			<key>com.apple.message.precentage</key>
+			<string>-6.9</string>
+		</dict>
+	</dict>
+</array>
+</plist>
